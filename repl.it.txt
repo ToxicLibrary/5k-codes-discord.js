@@ -1,0 +1,88 @@
+
+@everyone  / @here
+ شرح خادم repl.it  المجاني بلكامل ويحفظ بينات
+
+1 - تسجل دخولك في الموقع عن طريقة الرابط
+
+https://repl.it/repls
+
+2 -  بعد ما تسجل دخولك هتخش علي بروفيلك وتختار new repl
+
+http://prntscr.com/o6ae3i
+
+3 -هنا هجبلك قائمه بي الغات الي الخادم بيدعمها  اختار اليس تبيه 
+
+http://prntscr.com/o6aeqs
+
+وكمان تقدر تنسخ ملف جاهز من جت هوب من هنا 
+
+http://prntscr.com/o6afdn
+
+4 - تمام الحين نخلي الخادم 24 ساعه
+
+اول شي بنسوي ملف وسميه   اي شي مثال 
+
+index.js 
+
+ونحط داخله 
+
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => {
+ console.log(Date.now() + " Just got pinged!");
+ response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+setInterval(() => {
+ http.get(`http://اسم مشروعك.glitch.me/`);
+}, 280000);
+
+5 - بعدين ندخل علي موقع ذا 
+
+https://uptimerobot.com/
+
+ونسجل فيه بعدين 
+
+http://prntscr.com/o6ahjp
+
+هنا  monitor اختار HTTP'S Friendly Name Type اكتب اي حاجه Url هنا تحط  URLhttp://اسم مشروعك.glitch.me/تحذير اوعه تنسه تحط
+
+6 - اسم مشروعك في الرابط
+
+نرجع للخادم ونضعط 
+
+start
+
+http://prntscr.com/o6akok
+
+7- ننتظر لما يخلص تحميل البكجات
+
+http://prntscr.com/o6alfu
+
+بس كدا تمام البوت اشتغل نيجي نشوفه في السيرفر بعد
+
+منقفل المتصفح
+
+http://prntscr.com/o6an5w
+
+تمام كدا البوت بيضل اون لاين 24 ساعه هسبلكم ملفات شرح حق جلتش تستخدموها عادي
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+server.js
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+https://pastebin.com/JtjwR49j
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+package.json
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+https://pastebin.com/pMapPLPE
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+config.js
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+https://pastebin.com/hbrE7r8G
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+مشكله الخادم انو لو تم اقاف البوت كل الجسون بيروح فا حاول لا تخليه يقفل يعني عدل عليه وهوا اون لاين
+repl.it
