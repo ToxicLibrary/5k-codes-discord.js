@@ -1,0 +1,30 @@
+client.on("message", async message => {
+    var prefix = ".";  // البرفكس .
+    if(message.content.startsWith(prefix + "channelinfo")) {
+      if(!message.guild) return;
+        var channelName = message.content.split(" ").slice(1).join(" ");
+        if(!channelName) return message.channel.send("Provide a channel name. [ Without mention ]").catch(err => console.error(err));
+        var channelTarget = message.guild.channels.find(c => c.name == channelName);
+        if(!channelTarget) return message.channel.send(`Couldn't find a channel called ${channelName}`).catch(err => console.error(err));
+        if(channelTarget.type == "category") {
+          return message.channel.send("Categories aren't part of this.").catch(err => console.error(err));
+        }
+        var time = new Date().getTime() - message.guild.createdAt.getTime();
+          var since = time / 1000 / 60 / 60 /24;
+            const embed = new Discord.RichEmbed()
+              .setAuthor(message.author.username, message.author.displayAvatarURL)
+              .setColor("BLACK")
+              .setTitle("Channel Info.")
+              .addField("Name", channelTarget.name, true)
+              .addField("ID", channelTarget.id, true)
+              .addField("Type", channelTarget.type.toUpperCase(), true)
+              .addField("Topic", channelTarget.topic || "None", true)
+              .addField("Position", channelTarget.position, true)
+              .addField("Created At", "Since " + since.toFixed(0) + " Days.", true)
+              .addField("Members", channelTarget.members.size + " Members.", true)
+              .setTimestamp();
+    
+              message.channel.sendEmbed(embed).catch(err => console.log(`Couldn't send a message to [ ${message.channel.id} ].`));
+    
+    }
+    });
