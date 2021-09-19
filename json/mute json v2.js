@@ -1,21 +1,21 @@
 /*
-ÇåáÇð ØÈÚðÇ åÐÇ ßæÏ ãíæÊ ãØæÑ
-äÔÑÊ ãËáå È ÓíÑÝÑ ßæÏÒ áßä åÐÇ ÇÝÖá ÈßËíÑ
-ÇáÃÔíÇÁ ÇáÌÏíÏÉ Ýíå Çäæ íãÏíß ÊÍÏÏ ÇáæÞÊ Çáí ÊÈíå æíãÏíß ÊÍØ ãÇßÓ ááæÞÊ áæ ÇáæÞÊ ãËáÇ ÇÚáì ãä 30 íæã ÈíÞæá Çäå ã íãÏíß ÊÓæí ãíæÊ
-æÈÚÏ áæ ÇáÔÎÕ ØáÚ æÑÌÚ ÇáãíæÊ íÑÌÚáå
-æßãÇä Ýíå 
+Ã‡Ã¥Ã¡Ã‡Ã° Ã˜ÃˆÃšÃ°Ã‡ Ã¥ÃÃ‡ ÃŸÃ¦Ã Ã£Ã­Ã¦ÃŠ Ã£Ã˜Ã¦Ã‘
+Ã¤Ã”Ã‘ÃŠ Ã£Ã‹Ã¡Ã¥ Ãˆ Ã“Ã­Ã‘ÃÃ‘ ÃŸÃ¦ÃÃ’ Ã¡ÃŸÃ¤ Ã¥ÃÃ‡ Ã‡ÃÃ–Ã¡ ÃˆÃŸÃ‹Ã­Ã‘
+Ã‡Ã¡ÃƒÃ”Ã­Ã‡Ã Ã‡Ã¡ÃŒÃÃ­ÃÃ‰ ÃÃ­Ã¥ Ã‡Ã¤Ã¦ Ã­Ã£ÃÃ­ÃŸ ÃŠÃÃÃ Ã‡Ã¡Ã¦ÃžÃŠ Ã‡Ã¡Ã­ ÃŠÃˆÃ­Ã¥ Ã¦Ã­Ã£ÃÃ­ÃŸ ÃŠÃÃ˜ Ã£Ã‡ÃŸÃ“ Ã¡Ã¡Ã¦ÃžÃŠ Ã¡Ã¦ Ã‡Ã¡Ã¦ÃžÃŠ Ã£Ã‹Ã¡Ã‡ Ã‡ÃšÃ¡Ã¬ Ã£Ã¤ 30 Ã­Ã¦Ã£ ÃˆÃ­ÃžÃ¦Ã¡ Ã‡Ã¤Ã¥ Ã£ Ã­Ã£ÃÃ­ÃŸ ÃŠÃ“Ã¦Ã­ Ã£Ã­Ã¦ÃŠ
+Ã¦ÃˆÃšÃ Ã¡Ã¦ Ã‡Ã¡Ã”ÃŽÃ• Ã˜Ã¡Ãš Ã¦Ã‘ÃŒÃš Ã‡Ã¡Ã£Ã­Ã¦ÃŠ Ã­Ã‘ÃŒÃšÃ¡Ã¥
+Ã¦ÃŸÃ£Ã‡Ã¤ ÃÃ­Ã¥ 
 $unmute
-æÈÚÏ ÍØíÊ ÊÚÑíÝ áæ ã ÚäÏß Ñæá ãÍÏÏ ã íãÏíß ÊÓæí ÇáßæãÇäÏ
-æÈÚÏ Ýí ßæãÇäÏ ÌÏíÏ Çáí åæ
+Ã¦ÃˆÃšÃ ÃÃ˜Ã­ÃŠ ÃŠÃšÃ‘Ã­Ã Ã¡Ã¦ Ã£ ÃšÃ¤ÃÃŸ Ã‘Ã¦Ã¡ Ã£ÃÃÃ Ã£ Ã­Ã£ÃÃ­ÃŸ ÃŠÃ“Ã¦Ã­ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã
+Ã¦ÃˆÃšÃ ÃÃ­ ÃŸÃ¦Ã£Ã‡Ã¤Ã ÃŒÃÃ­Ã Ã‡Ã¡Ã­ Ã¥Ã¦
 $setup
-áÇÒã ÊßÊÈå ÞÈá ã ÊÓæí ãíæÊ ÚÔÇä íÓæíáß ßæãÇäÏ ÇáãíæÊ æíÚÏá Úáì ßá ÇáÑæãÇÊ æíÎáí ÇáãíæÊ ã íÞÏÑ íÑÓá ÝíåÇ
-æßá ã ÊÓæí ßÇÊÞæÑí ÌÏíÏ æÔÇäáÇÊ ßËíÑå ÇßÊÈ ÇáßæãÇäÏ 
+Ã¡Ã‡Ã’Ã£ ÃŠÃŸÃŠÃˆÃ¥ ÃžÃˆÃ¡ Ã£ ÃŠÃ“Ã¦Ã­ Ã£Ã­Ã¦ÃŠ ÃšÃ”Ã‡Ã¤ Ã­Ã“Ã¦Ã­Ã¡ÃŸ ÃŸÃ¦Ã£Ã‡Ã¤Ã Ã‡Ã¡Ã£Ã­Ã¦ÃŠ Ã¦Ã­ÃšÃÃ¡ ÃšÃ¡Ã¬ ÃŸÃ¡ Ã‡Ã¡Ã‘Ã¦Ã£Ã‡ÃŠ Ã¦Ã­ÃŽÃ¡Ã­ Ã‡Ã¡Ã£Ã­Ã¦ÃŠ Ã£ Ã­ÃžÃÃ‘ Ã­Ã‘Ã“Ã¡ ÃÃ­Ã¥Ã‡
+Ã¦ÃŸÃ¡ Ã£ ÃŠÃ“Ã¦Ã­ ÃŸÃ‡ÃŠÃžÃ¦Ã‘Ã­ ÃŒÃÃ­Ã Ã¦Ã”Ã‡Ã¤Ã¡Ã‡ÃŠ ÃŸÃ‹Ã­Ã‘Ã¥ Ã‡ÃŸÃŠÃˆ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã 
 $setup
-ÚÔÇä íÖÈØáß ÇáÑæãÇÊ
-Çæá Ôí ÑÍ ÊÍÊÇÌ ßã ÍÇÌÉ Óæí ãáÝ æÓãíå
+ÃšÃ”Ã‡Ã¤ Ã­Ã–ÃˆÃ˜Ã¡ÃŸ Ã‡Ã¡Ã‘Ã¦Ã£Ã‡ÃŠ
+Ã‡Ã¦Ã¡ Ã”Ã­ Ã‘Ã ÃŠÃÃŠÃ‡ÃŒ ÃŸÃ£ ÃÃ‡ÃŒÃ‰ Ã“Ã¦Ã­ Ã£Ã¡Ã Ã¦Ã“Ã£Ã­Ã¥
 mutes.json 
-æÍØ ÏÇÎáå {}
-ÈÚÏíä Íãá ÇáÈßÌÇÊ
+Ã¦ÃÃ˜ ÃÃ‡ÃŽÃ¡Ã¥ {}
+ÃˆÃšÃÃ­Ã¤ ÃÃ£Ã¡ Ã‡Ã¡ÃˆÃŸÃŒÃ‡ÃŠ
 npm i ms
 npm i fs
 npm i discord.js
@@ -49,7 +49,7 @@ bot.on("guildMemberAdd", async (member) => {
         let data = bot.mutes[i];
         if (data === undefined) return;
         if (data.guildid !== member.guild.id) return;
-        let mutereason = "áíå ÊåÑÈ í ÈÇÈÇ ÇãæÇÍ ã ÑÍ ÃÓíÈß"
+        let mutereason = "Ã¡Ã­Ã¥ ÃŠÃ¥Ã‘Ãˆ Ã­ ÃˆÃ‡ÃˆÃ‡ Ã‡Ã£Ã¦Ã‡Ã Ã£ Ã‘Ã ÃƒÃ“Ã­ÃˆÃŸ"
         let guildID = bot.mutes[i].guildid;
         if (member.id === bot.mutes[i].muted) {
             bot.guilds.get(`${guildID}`).members.get(`${member.id}`).addRole(`${bot.mutes[i].roleid}`, mutereason)
@@ -65,17 +65,17 @@ client.on('message', async message => {
     let cmd = messageArray[0]
     if (cmd === `${prefix}mute`) {
         message.delete();
-        // åäÇ íãÏíß ÊÍØ ÇáÑæáÇÊ Çáí íãÏíåÇ ÊÓÊÚãá ÇáßæãÇäÏ
-        if (!message.member.roles.some(r => ['ÇáÑæá ÑÞã 2 Çáí íãÏíå íÓÊÚãá ÇáßæãÇäÏ', 'ÇáÑæá Çáí íãÏíå íÓÊÚãá ÇáßæãÇäÏ'].includes(r.name))) return message.reply('You do not have permissions').then(msg => msg.delete(30000))
+        // Ã¥Ã¤Ã‡ Ã­Ã£ÃÃ­ÃŸ ÃŠÃÃ˜ Ã‡Ã¡Ã‘Ã¦Ã¡Ã‡ÃŠ Ã‡Ã¡Ã­ Ã­Ã£ÃÃ­Ã¥Ã‡ ÃŠÃ“ÃŠÃšÃ£Ã¡ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã
+        if (!message.member.roles.some(r => ['Ã‡Ã¡Ã‘Ã¦Ã¡ Ã‘ÃžÃ£ 2 Ã‡Ã¡Ã­ Ã­Ã£ÃÃ­Ã¥ Ã­Ã“ÃŠÃšÃ£Ã¡ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã', 'Ã‡Ã¡Ã‘Ã¦Ã¡ Ã‡Ã¡Ã­ Ã­Ã£ÃÃ­Ã¥ Ã­Ã“ÃŠÃšÃ£Ã¡ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã'].includes(r.name))) return message.reply('You do not have permissions').then(msg => msg.delete(30000))
         let themuteguy = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-        if (!themuteguy) return message.channel.send("**ÇáÑÌÇÁ æÖÚ ÇáãäÔä**").then(msg => msg.delete(8000))
+        if (!themuteguy) return message.channel.send("**Ã‡Ã¡Ã‘ÃŒÃ‡Ã Ã¦Ã–Ãš Ã‡Ã¡Ã£Ã¤Ã”Ã¤**").then(msg => msg.delete(8000))
         if (themuteguy.id == message.author.id) return message.reply('You cannot mute yourself can you ??? ')
         let roleid = message.guild.roles.find(c => c.name === "Muted")
         if (!roleid) return message.reply(`Please use \`${prefix}setup\` first`)
         let mutereason = args.join(" ").slice(25)
         if (!mutereason) return message.reply(`\`Usage: ${prefix}mute mention time reason\``)
         let time = args[1]
-        if (ms(time) > 2.592e+9) return message.reply('Must be lower or equal to 30 days') // åäÇ áæ ÇáæÞÊ ÇßËÑ ãä 30 íæã ÈíÞáß ã íãÏíß ÊÓæíáå ãíæÊ æåÐí ÇáÌÒÆíÉ ãÇáåÇ ÏÇÚí áßä ÈÊÓÇÚÏß áæ ÊÈí ÊÎáí ãÇßÓ ááæÞÊ
+        if (ms(time) > 2.592e+9) return message.reply('Must be lower or equal to 30 days') // Ã¥Ã¤Ã‡ Ã¡Ã¦ Ã‡Ã¡Ã¦ÃžÃŠ Ã‡ÃŸÃ‹Ã‘ Ã£Ã¤ 30 Ã­Ã¦Ã£ ÃˆÃ­ÃžÃ¡ÃŸ Ã£ Ã­Ã£ÃÃ­ÃŸ ÃŠÃ“Ã¦Ã­Ã¡Ã¥ Ã£Ã­Ã¦ÃŠ Ã¦Ã¥ÃÃ­ Ã‡Ã¡ÃŒÃ’Ã†Ã­Ã‰ Ã£Ã‡Ã¡Ã¥Ã‡ ÃÃ‡ÃšÃ­ Ã¡ÃŸÃ¤ ÃˆÃŠÃ“Ã‡ÃšÃÃŸ Ã¡Ã¦ ÃŠÃˆÃ­ ÃŠÃŽÃ¡Ã­ Ã£Ã‡ÃŸÃ“ Ã¡Ã¡Ã¦ÃžÃŠ
         if (themuteguy.roles.has(roleid.id)) return message.channel.send("This guy already is muted")
         bot.mutes.count++ + 1
         if (isNaN(bot.mutes.count)) bot.mutes.count = 0 + 1;
@@ -89,7 +89,7 @@ client.on('message', async message => {
         fs.writeFile("./mutes.json", JSON.stringify(bot.mutes, null, 4), err => {
             if (err) throw err;
             message.reply(`Done <@!${themuteguy.id}> Has been muted!`).then(msg => msg.delete(20000))
-            let muteembed = new Discord.RichEmbed()//ÇááæÞ
+            let muteembed = new Discord.RichEmbed()//Ã‡Ã¡Ã¡Ã¦Ãž
                 .setAuthor("Mute log!")
                 .setColor("#FFFFFF")
                 .setTimestamp()
@@ -103,7 +103,7 @@ client.on('message', async message => {
         })
     }
     if (cmd == `${prefix}unmute`) {
-        if (!message.member.roles.some(r => ['ÇáÑæá ÑÞã 2 Çáí íãÏíå íÓÊÚãá ÇáßæãÇäÏ', 'ÇáÑæá Çáí íãÏíå íÓÊÚãá ÇáßæãÇäÏ'].includes(r.name))) return message.reply('You do not have permissions').then(msg => msg.delete(30000))
+        if (!message.member.roles.some(r => ['Ã‡Ã¡Ã‘Ã¦Ã¡ Ã‘ÃžÃ£ 2 Ã‡Ã¡Ã­ Ã­Ã£ÃÃ­Ã¥ Ã­Ã“ÃŠÃšÃ£Ã¡ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã', 'Ã‡Ã¡Ã‘Ã¦Ã¡ Ã‡Ã¡Ã­ Ã­Ã£ÃÃ­Ã¥ Ã­Ã“ÃŠÃšÃ£Ã¡ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã'].includes(r.name))) return message.reply('You do not have permissions').then(msg => msg.delete(30000))
         let tounmute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
         if (!tounmute) return message.reply('**Mention someone to unmute!**')
         let muterole = message.guild.roles.find(c => c.name == 'Muted')
@@ -126,8 +126,8 @@ client.on('message', async message => {
             if (err) throw err;
         })
     }
-    if (cmd == `${prefix}setup`) { // ÇáßæãÇäÏ åÐÇ áæ ÇäÊ ÓæíÊ ßÇÊÞæÑí ÌÏíÏ æÓæíÊ Ýíå ÔÇäáÇÊ ÌÏíÏÉ ãæ ãæÌæÏ ÝíåÇ ãäÚ ááãíæÊ ÇßÊÈ ÇáßæãÇäÏ ÐÇ 
-        if (!message.member.roles.some(r => ['ÇáÑæá ÑÞã 2 Çáí íãÏíå íÓÊÚãá ÇáßæãÇäÏ', 'ÇáÑæá Çáí íãÏíå íÓÊÚãá ÇáßæãÇäÏ'].includes(r.name))) return message.reply('You do not have permissions').then(msg => msg.delete(30000))
+    if (cmd == `${prefix}setup`) { // Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã Ã¥ÃÃ‡ Ã¡Ã¦ Ã‡Ã¤ÃŠ Ã“Ã¦Ã­ÃŠ ÃŸÃ‡ÃŠÃžÃ¦Ã‘Ã­ ÃŒÃÃ­Ã Ã¦Ã“Ã¦Ã­ÃŠ ÃÃ­Ã¥ Ã”Ã‡Ã¤Ã¡Ã‡ÃŠ ÃŒÃÃ­ÃÃ‰ Ã£Ã¦ Ã£Ã¦ÃŒÃ¦Ã ÃÃ­Ã¥Ã‡ Ã£Ã¤Ãš Ã¡Ã¡Ã£Ã­Ã¦ÃŠ Ã‡ÃŸÃŠÃˆ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã ÃÃ‡ 
+        if (!message.member.roles.some(r => ['Ã‡Ã¡Ã‘Ã¦Ã¡ Ã‘ÃžÃ£ 2 Ã‡Ã¡Ã­ Ã­Ã£ÃÃ­Ã¥ Ã­Ã“ÃŠÃšÃ£Ã¡ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã', 'Ã‡Ã¡Ã‘Ã¦Ã¡ Ã‡Ã¡Ã­ Ã­Ã£ÃÃ­Ã¥ Ã­Ã“ÃŠÃšÃ£Ã¡ Ã‡Ã¡ÃŸÃ¦Ã£Ã‡Ã¤Ã'].includes(r.name))) return message.reply('You do not have permissions').then(msg => msg.delete(30000))
         let role = message.guild.roles.find(c => c.name === "Muted")
         if (!role) {
             muterole = await message.guild.createRole({
