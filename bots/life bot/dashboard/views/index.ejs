@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <title>Life Bot | Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//www.fontstatic.com/f=dubai-light" />
+
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #1d1f23;
+  border-radius: 50%;
+  border-top: 16px solid white;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 2s;
+  animation-name: animatebottom;
+  animation-duration: 2s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:2 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:2 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<div id="loader"></div>
+
+<style>
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+
+@keyframes animatedBackground {
+
+	from { background-position: bottom 10px 0px; }
+	to { background-position: 10000000% 0; }
+}
+
+body	{ 
+    background-image: url("../img/background.png");
+	background-position: bottom 10px 0px;
+	background-repeat: repeat-1000;
+	animation: animatedBackground 2000000s linear infinite;
+}
+
+a:link {
+    text-decoration: none;
+	color : white;
+}
+
+a:visited {
+    text-decoration: none;
+	color : white;}
+
+a:hover {
+    text-decoration: none;
+	color : white;}
+
+a:active {
+    text-decoration: none;
+	color : white;}
+	
+	/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.line-1{
+    position: relative;
+    top: 30%;  
+    width: 24em;
+    margin: 0 auto;
+    border-left: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-30%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+ blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10.2em;}
+}
+@keyframes blinkTextCursor{
+  from{border-left-color: rgba(255,255,255,.75);}
+  to{border-left-color: transparent;}
+}
+</style>
+<body style="font-family: 'dubai-light';" >
+  <br>
+  <nav  class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">لايف بوت
+    </a>
+      <!-- Dropdown -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div dir="ltr" class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" style="border: 2px solid #888; border-radius:10px;" href="/auth">تسجيل الدخول</a>
+          </li>  
+        </ul>
+      </div>
+    </nav>
+<center>
+
+<br><br><br><br><br>
+<br><br>
+<p class="line-1 anim-typewriter" style="color:white;font-family: 'dubai-light'; ">.لايف بوت الافضل لسيرفرك</p><br>
+<a href="https://discordapp.com/oauth2/authorize?client_id=326584008425209856&scope=bot&permissions=108526662" style="border-bottom: 5px solid white;  font-family: 'dubai-light';"> اضافة الى الديسكورد </a>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
+</html>
+
